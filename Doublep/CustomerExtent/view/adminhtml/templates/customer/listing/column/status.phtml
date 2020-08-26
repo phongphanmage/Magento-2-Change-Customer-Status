@@ -1,0 +1,8 @@
+<?php
+?>
+<?php $value = $block->getValue(); ?>
+<?php if ($value == 1) : ?>
+    <div class="dp_active_status"><?= __('Activated') ?> </div>
+<?php else: ?>
+    <span class="dp_active_status non-active"><?= __('Deactivated') ?> </span>
+<?php endif; ?>

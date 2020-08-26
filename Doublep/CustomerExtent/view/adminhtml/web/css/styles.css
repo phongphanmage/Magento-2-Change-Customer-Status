@@ -1,0 +1,11 @@
+.dp_active_status {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dp_active_status.non-active {
+    background-color: #f00 !important;
+}
